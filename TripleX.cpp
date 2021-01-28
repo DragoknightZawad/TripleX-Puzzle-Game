@@ -1,5 +1,5 @@
 #include <iostream>
-#include<ctime>
+#include<ctime> 
 void introduction(int Difficulty)
 {  std::cout<<"\n";
    std::cout << R"(  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.    .----------------. 
@@ -83,7 +83,9 @@ int main()
     if (bLevelComplete)
     {
         //increase the level difficulty
+     
         ++LevelDifficulty;
+         system ("CLS");
     }
     
     }
